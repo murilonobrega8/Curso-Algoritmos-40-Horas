@@ -1,11 +1,11 @@
 Algoritmo "MeuPrimeiroAlgoritmo"
 
-// Disciplina   : Linguagem e Lógica de Programação
+// Disciplina   : Linguagem e LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Gustavo Guanabara
-// Descrição   : Primeiro "Olá, Mundo!"
+// DescriÃ§Ã£o   : Primeiro "OlÃ¡, Mundo!"
 // Autor(a)    : Murilo Oliveira
-// Data de início  : 19/07/2022
-// Data de conclusão: 29/07/2022
+// Data de inÃ­cio  : 19/07/2022
+// Data de conclusÃ£o: 29/07/2022
 
 Var
 
@@ -30,21 +30,21 @@ Procedimento PularAula()
 Inicio
    Escreval("Quer continuar esta aula?")
    Repita
-      Escreva("Por favor, digite [S] para SIM ou [N] para NÃO: ")
+      Escreva("Por favor, digite [S] para SIM ou [N] para Nï¿½O: ")
       Leia(resppular)
       Se (resppular <> "s") e (resppular <> "n") entao
-         Escreval("Resposta inválida!")
+         Escreval("Resposta invï¿½lida!")
          Escreval
          Escreval("Quer pular esta aula?")
       FimSe
    Ate (resppular = "s") ou (resppular = "n")
    Escreval
    Se (resppular = "s") entao
-      Escreval("Vamos lá!")
+      Escreval("Vamos lï¿½!")
    Senao
       Escreval("Ok, vamos encerrar o programa...")
       EscrevaL()
-      EscrevaL("Até mais!!")
+      EscrevaL("Atï¿½ mais!!")
       FimAlgoritmo
    FimSe
 FimProcedimento
@@ -54,7 +54,7 @@ Inicio
    Escreval("---------------------------------------")
    Escreval("D E T E C T O R   D E   +   P E S A D O")
    Escreval
-   Escreval("     Maior Peso até agora:",maispeso," kg. ")
+   Escreval("     Maior Peso atï¿½ agora:",maispeso," kg. ")
    Escreval("---------------------------------------")
    Escreval
 FimProcedimento
@@ -62,9 +62,9 @@ FimProcedimento
 Procedimento ParOUImpar(v: inteiro)
 Inicio
    Se (v%2=0) entao
-      Escreval("O maior peso,",v," é um número PAR!")
+      Escreval("O maior peso,",v," ï¿½ um nï¿½mero PAR!")
    Senao
-      Escreval("O maior peso,",v," é número ÍMPAR!")
+      Escreval("O maior peso,",v," ï¿½ nï¿½mero ï¿½MPAR!")
    FimSe
 FimProcedimento
 
@@ -72,11 +72,11 @@ Procedimento Soma(var A, B: Inteiro)
 Inicio
    A <- A + 100
    B <- B + 10
-   Escreval("O novo valor de A é:",A,".")
+   Escreval("O novo valor de A ï¿½:",A,".")
    Escreval
-   Escreval("O novo valor de B é:",B,".")
+   Escreval("O novo valor de B ï¿½:",B,".")
    Escreval
-   Escreval("O soma de A+B é:",A+B,".")
+   Escreval("O soma de A+B ï¿½:",A+B,".")
 FimProcedimento
 
 Procedimento MostraMatriz()
@@ -214,10 +214,10 @@ FimFuncao
 
 Inicio
    EscrevaL()
-   msg <- "Olá, Mundo!"
-   msg2 <- "Me livrei da Maldição!"
+   msg <- "Olï¿½, Mundo!"
+   msg2 <- "Me livrei da Maldiï¿½ï¿½o!"
    Escreval("*--***--*")
-   Escreval(" AULA 01 - INTRODUÇÃO A ALGORITMOS")
+   Escreval(" AULA 01 - INTRODUï¿½ï¿½O A ALGORITMOS")
    Escreval("*--***--*")
    EscrevaL()
    EscrevaL()
@@ -248,236 +248,236 @@ Inicio
    EscrevaL()
    PularAula()
    EscrevaL()
-   Escreva("Informe um número: ")
+   Escreva("Informe um nï¿½mero: ")
    Leia(N2)
-   Escreva("Informe outro número: ")
+   Escreva("Informe outro nï¿½mero: ")
    Leia(N3)
    S <- N2+N3
    Escreval
-   Escreval("A soma entre",N2," e",N3," é igual a:",S,"!")
+   Escreval("A soma entre",N2," e",N3," ï¿½ igual a:",S,"!")
    Escreval
-   Escreva("Informe um número: ")
+   Escreva("Informe um nï¿½mero: ")
    Leia(N2)
-   Escreva("Informe outro número: ")
+   Escreva("Informe outro nï¿½mero: ")
    Leia(N3)
    M <- (N2+N3)/2
    Escreval
-   Escreval("A média entre",N2," e",N3," é igual a:",M,"!")
+   Escreval("A mï¿½dia entre",N2," e",N3," ï¿½ igual a:",M,"!")
    Escreval
    Escreva("Informe um valor negativo: ")
    Leia(N4)
    A <- Abs(N4)
    Escreval
-   Escreval("O valor absoluto de",N4," é igual a: ",A)
+   Escreval("O valor absoluto de",N4," ï¿½ igual a: ",A)
    Escreval
-   Escreva("Vamos lá, agora a exponencial. Informe um valor: ")
+   Escreva("Vamos lï¿½, agora a exponencial. Informe um valor: ")
    Leia(N5)
    Escreval
    Escreva("Agora, informe um valor para exponencial: ")
    Leia(N6)
    B <- Exp(N5, N6)
    Escreval
-   Escreval("O resultado é igual a: ",B)
+   Escreval("O resultado ï¿½ igual a: ",B)
    Escreval
    Escreva("Vamos calcular a Raiz Quadrada. Me diga um valor: ")
    Leia(N7)
    C1 <- RaizQ(N7)
    Escreval
-   Escreval("O resultado é igual a: ",C1)
+   Escreval("O resultado ï¿½ igual a: ",C1)
    Escreval
-   Escreval("Vamos saber qual é o Valor Inteiro desta Raiz Quadrada?")
+   Escreval("Vamos saber qual ï¿½ o Valor Inteiro desta Raiz Quadrada?")
    Repita
-      Escreva("Por favor, digite [S] para SIM ou [N] para NÃO: ")
+      Escreva("Por favor, digite [S] para SIM ou [N] para Nï¿½O: ")
       Leia(N8)
       Se (N8 <> "s") e (N8 <> "n") entao
-         Escreval("Resposta inválida!")
+         Escreval("Resposta invï¿½lida!")
          Escreval
          Escreval("Quer saber o Valor Inteiro desta Raiz Quadrada?")
       FimSe
    Ate (N8 = "s") ou (N8 = "n")
    Escreval
    Se (N8 = "s") entao
-      Escreval("Vamos lá!")
+      Escreval("Vamos lï¿½!")
    Senao
       Escreval("Ok, vamos seguir com a aula...")
    FimSe
    D <- Int(C)
    Escreval
-   Escreval("O resultado é igual a: ",D)
+   Escreval("O resultado ï¿½ igual a: ",D)
    Escreval
    Escreva("Agora, informe um valor em Graus, ou seja, um Angulo: ")
    Leia(Angulo)
    F <- GraupRad(Angulo)
    Escreval
-   Escreva("O resultado da conversão de Graus para Radianos é igual a:",F)
+   Escreva("O resultado da conversï¿½o de Graus para Radianos ï¿½ igual a:",F)
    Escreval
    G <- Sen(GraupRad(Angulo))
    Escreval
-   Escreva("O Seno de",Angulo," Graus é igual a:",G)
+   Escreva("O Seno de",Angulo," Graus ï¿½ igual a:",G)
    Escreval
    H <- Cos(GraupRad(Angulo))
    Escreval
-   Escreva("O Coseno de",Angulo," Graus é igual a:",H)
+   Escreva("O Coseno de",Angulo," Graus ï¿½ igual a:",H)
    Escreval
    I <- Tan(GraupRad(Angulo))
    Escreval
-   Escreva("A Tangente de",Angulo," Graus é igual a:",I)
+   Escreva("A Tangente de",Angulo," Graus ï¿½ igual a:",I)
    Escreval
    J <- Pi(GraupRad(Angulo))
    Escreval
-   Escreval("O Valor Pi é igual a:",J)
+   Escreval("O Valor Pi ï¿½ igual a:",J)
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 04 - OPERADORES RELACIONAIS E LÓGICOS")
+   Escreval(" AULA 04 - OPERADORES RELACIONAIS E Lï¿½GICOS")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
-   Escreva("Informe um número entre 01 a 10, para ser A: ")
+   Escreva("Informe um nï¿½mero entre 01 a 10, para ser A: ")
    Leia(N10)
    Escreval
-   Escreva("Informe outro número, para ser B: ")
+   Escreva("Informe outro nï¿½mero, para ser B: ")
    Leia(N11)
    Escreval
-   Escreva("Agora, um último número, para C: ")
+   Escreva("Agora, um ï¿½ltimo nï¿½mero, para C: ")
    Leia(N12)
    Escreval
-   Escreval("Se eu disser que A é maior que B, a resposta será:",(N10>N11))
+   Escreval("Se eu disser que A ï¿½ maior que B, a resposta serï¿½:",(N10>N11))
    Escreval
-   Escreval("Se eu disser que A é menor que B, a resposta será:",(N10<N11))
+   Escreval("Se eu disser que A ï¿½ menor que B, a resposta serï¿½:",(N10<N11))
    Escreval
-   Escreval("Se eu disser que A é maior ou igual que B, a resposta será:",(N10>=N11))
+   Escreval("Se eu disser que A ï¿½ maior ou igual que B, a resposta serï¿½:",(N10>=N11))
    Escreval
-   Escreval("Se eu disser que A é menor ou igual que B, a resposta será:",(N10<=N11))
+   Escreval("Se eu disser que A ï¿½ menor ou igual que B, a resposta serï¿½:",(N10<=N11))
    Escreval
-   Escreval("Se eu disser que B é igual a C, a resposta será:",(N11=N12))
+   Escreval("Se eu disser que B ï¿½ igual a C, a resposta serï¿½:",(N11=N12))
    Escreval
-   Escreval("Se eu disser que B é diferente a C, a resposta será:",(N11<>N12))
+   Escreval("Se eu disser que B ï¿½ diferente a C, a resposta serï¿½:",(N11<>N12))
    Escreval
-   Escreval("Se eu disser que B é maior ou igual a 05, a resposta será:",(N11>=5))
+   Escreval("Se eu disser que B ï¿½ maior ou igual a 05, a resposta serï¿½:",(N11>=5))
    Escreval
-   Escreval("Se eu disser que B é menor ou igual a 05, a resposta será:",(N11<=5))
+   Escreval("Se eu disser que B ï¿½ menor ou igual a 05, a resposta serï¿½:",(N11<=5))
    Escreval
-   Escreval("Se eu disser que C é igual a 05, a resposta será:",(N12=5))
+   Escreval("Se eu disser que C ï¿½ igual a 05, a resposta serï¿½:",(N12=5))
    Escreval
-   Escreval("Se eu disser que C é igual a A+B, a resposta será:",(N12=N10+N11))
+   Escreval("Se eu disser que C ï¿½ igual a A+B, a resposta serï¿½:",(N12=N10+N11))
    Escreval
-   Escreval("Se eu disser que C é maior ou igual a B elevado a A, a resposta será:",(N12>=N11^N10))
+   Escreval("Se eu disser que C ï¿½ maior ou igual a B elevado a A, a resposta serï¿½:",(N12>=N11^N10))
    Escreval
-   Escreval("Se eu disser que C é menor ou igual a B elevado a A, a resposta será:",(N12<=N11^N10))
+   Escreval("Se eu disser que C ï¿½ menor ou igual a B elevado a A, a resposta serï¿½:",(N12<=N11^N10))
    Escreval
-   Escreval("Se eu disser que B é menor ou igual ao Resto da divisão de C por 02, a resposta será:",(N11<=N12%2))
+   Escreval("Se eu disser que B ï¿½ menor ou igual ao Resto da divisï¿½o de C por 02, a resposta serï¿½:",(N11<=N12%2))
    Escreval
-   Escreval("Se eu disser que 01 é igual ao Resto da divisão de C por 02, a resposta será:",(1=N12%2))
+   Escreval("Se eu disser que 01 ï¿½ igual ao Resto da divisï¿½o de C por 02, a resposta serï¿½:",(1=N12%2))
    Escreval
-   Escreval("Se eu disser que A é igual a B OU que C é maior que A, a resposta será:",((N10=N11) ou (N12>N10)))
+   Escreval("Se eu disser que A ï¿½ igual a B OU que C ï¿½ maior que A, a resposta serï¿½:",((N10=N11) ou (N12>N10)))
    Escreval
-   Escreval("Se eu disser que A não é igual a B OU que C não é maior que A, a resposta será:",(não((N10=N11) ou (N12>N10))))
+   Escreval("Se eu disser que A nï¿½o ï¿½ igual a B OU que C nï¿½o ï¿½ maior que A, a resposta serï¿½:",(nï¿½o((N10=N11) ou (N12>N10))))
    Escreval
-   Escreval("Se eu disser que B é maior ou igual a C, E que A é menor que B, a resposta será:",((N11>=N12) e (N10<N11)))
+   Escreval("Se eu disser que B ï¿½ maior ou igual a C, E que A ï¿½ menor que B, a resposta serï¿½:",((N11>=N12) e (N10<N11)))
    Escreval
-   Escreval("Se eu disser que C é maior ou igual a A+B, E que A é menor que B, a resposta será:",((N12>=N10+N11) e (N10<N11)))
+   Escreval("Se eu disser que C ï¿½ maior ou igual a A+B, E que A ï¿½ menor que B, a resposta serï¿½:",((N12>=N10+N11) e (N10<N11)))
    Escreval
-   Escreval("Agora podemos tratar sobre Triângulos. Quer continuar?")
+   Escreval("Agora podemos tratar sobre Triï¿½ngulos. Quer continuar?")
    Repita
-      Escreva("Por favor, digite [S] para SIM ou [N] para NÃO: ")
+      Escreva("Por favor, digite [S] para SIM ou [N] para Nï¿½O: ")
       Leia(N13)
       Se (N13 <> "s") e (N13 <> "n") entao
-         Escreval("Resposta inválida!")
+         Escreval("Resposta invï¿½lida!")
          Escreval
-         Escreval("Quer seguir para os cálculos de Triângulos?")
+         Escreval("Quer seguir para os cï¿½lculos de Triï¿½ngulos?")
       FimSe
    Ate (N13 = "s") ou (N13 = "n")
    Escreval
    Se (N13 = "s") entao
-      Escreval("Vamos lá!")
+      Escreval("Vamos lï¿½!")
    Senao
-      Escreval("Ok, vamos pular os cálculos de Triângulos.")
+      Escreval("Ok, vamos pular os cï¿½lculos de Triï¿½ngulos.")
    FimSe
    Escreval
-   Escreva("Informe um número entre 01 a 10, para ser o Primeiro Lado (L1): ")
+   Escreva("Informe um nï¿½mero entre 01 a 10, para ser o Primeiro Lado (L1): ")
    Leia(L1)
    Escreval
-   Escreva("Informe outro número, para ser o Segundo Lado (L2): ")
+   Escreva("Informe outro nï¿½mero, para ser o Segundo Lado (L2): ")
    Leia(L2)
    Escreval
-   Escreva("Agora, um último número, para ser o Terceiro Lado (L3): ")
+   Escreva("Agora, um ï¿½ltimo nï¿½mero, para ser o Terceiro Lado (L3): ")
    Leia(L3)
    TRI <- (L1<L2+L3) e (L2<L1+L3) e (L3<L1+L2)
    EQ <- (L1=L2) e (L2=L3)
    ES <- (L1<>L2) e (L2<>L3) e (L1<>L3)
    Escreval
-   Escreval("Pode formar um TRIÂNGULO?:",TRI)
+   Escreval("Pode formar um TRIï¿½NGULO?:",TRI)
    Escreval
-   Escreval("O Triângulo formado é EQUILÁTERO?:",EQ)
+   Escreval("O Triï¿½ngulo formado ï¿½ EQUILï¿½TERO?:",EQ)
    Escreval
-   Escreval("O Triângulo formado é ESCALENO?:",ES)
+   Escreval("O Triï¿½ngulo formado ï¿½ ESCALENO?:",ES)
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 05 - INTRODUÇÃO AO SCRATCH")
+   Escreval(" AULA 05 - INTRODUï¿½ï¿½O AO SCRATCH")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
-   Escreval("Nesta aula aprendemos a usar o Scratch, então a aula foi fora do VISUALG.")
+   Escreval("Nesta aula aprendemos a usar o Scratch, entï¿½o a aula foi fora do VISUALG.")
    Escreval
    Escreva("Aperte qualquer tecla para continuar...")
    Leia(N14)
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 06 - EXERCÍCIOS DE ALGORITMO RESOLVIDOS")
+   Escreval(" AULA 06 - EXERCï¿½CIOS DE ALGORITMO RESOLVIDOS")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
-   Escreva("Me diga, por favor, em que ANO nós estamos?: ")
+   Escreva("Me diga, por favor, em que ANO nï¿½s estamos?: ")
    Leia(ano_atual)
    Escreval
-   Escreva("Agora me diga em que ANO você nasceu?: ")
+   Escreva("Agora me diga em que ANO vocï¿½ nasceu?: ")
    Leia(ano_nasc)
    idade <- ano_atual - ano_nasc
    Escreval
-   Escreval("Consegui calcular sua idade, ",Nome,", então você deve ter",idade," anos, se já apagou velinhas este ano. Se ainda não comemorou, sua idade atual é",(idade - 1)," anos.")
+   Escreval("Consegui calcular sua idade, ",Nome,", entï¿½o vocï¿½ deve ter",idade," anos, se jï¿½ apagou velinhas este ano. Se ainda nï¿½o comemorou, sua idade atual ï¿½",(idade - 1)," anos.")
    Escreval
-   Escreva("Para comemorar seu aniversário, podemos planejar uma viagem para os EUA. Quantos Reais você tem para gastar?: R$ ")
+   Escreva("Para comemorar seu aniversï¿½rio, podemos planejar uma viagem para os EUA. Quantos Reais vocï¿½ tem para gastar?: R$ ")
    Leia(brreal)
    Escreval
-   Escreva("Qual é a cotação do Dólar na data de hoje?: ")
+   Escreva("Qual ï¿½ a cotaï¿½ï¿½o do Dï¿½lar na data de hoje?: ")
    Leia(dolar)
    dolares <- brreal/dolar
    Escreval
-   Escreval("Com a cotação atual, você terá U$",dolares:8:2," Dólares para usar em sua viagem!")
+   Escreval("Com a cotaï¿½ï¿½o atual, vocï¿½ terï¿½ U$",dolares:8:2," Dï¿½lares para usar em sua viagem!")
    Escreval
-   Escreva("Mas lembre-se da roupa adequada! Nos EUA a temperatura é indicada em °F, então me informe a temperatura em Fahrenheit que seu contato de lá te passou: ")
+   Escreva("Mas lembre-se da roupa adequada! Nos EUA a temperatura ï¿½ indicada em ï¿½F, entï¿½o me informe a temperatura em Fahrenheit que seu contato de lï¿½ te passou: ")
    Leia(graufar)
    graucels <- (graufar-32)/1.8
    Escreval
-   Escreval("A temperatura em Celsius durante sua viagem será de ",graucels:5:2,"°C!")
+   Escreval("A temperatura em Celsius durante sua viagem serï¿½ de ",graucels:5:2,"ï¿½C!")
    Escreval
-   Escreva("Outra situação imporante será a taxação de suas compras. Me informe sua previsão de gastos em Dólar nestes itens, que são taxados em 60%: U$ ")
+   Escreva("Outra situaï¿½ï¿½o imporante serï¿½ a taxaï¿½ï¿½o de suas compras. Me informe sua previsï¿½o de gastos em Dï¿½lar nestes itens, que sï¿½o taxados em 60%: U$ ")
    Leia(compras)
    reais <- compras*dolar
    imposto <- (reais*60)/100
    Escreval
-   Escreval("Você precisar reservar por volta de R$",imposto:8:2," (ou U$",(imposto/dolar):7:2,") para custeio de Impostos de Importação.")
+   Escreval("Vocï¿½ precisar reservar por volta de R$",imposto:8:2," (ou U$",(imposto/dolar):7:2,") para custeio de Impostos de Importaï¿½ï¿½o.")
    Escreval
-   Escreva("Se você precisar fazer um empréstimo, posso calcular os custos. Me informe um valor: R$ ")
+   Escreva("Se vocï¿½ precisar fazer um emprï¿½stimo, posso calcular os custos. Me informe um valor: R$ ")
    Leia(dinheiro)
    Escreval
-   Escreva("Qual é a melhor taxa de juros que você encontrou, para parcelamento?: ")
+   Escreva("Qual ï¿½ a melhor taxa de juros que vocï¿½ encontrou, para parcelamento?: ")
    Leia(juros)
    emprestimo <- ((dinheiro*juros)/100)+dinheiro)
    Escreval
-   Escreva("Quantas parcelas mensais você deseja?: ")
+   Escreva("Quantas parcelas mensais vocï¿½ deseja?: ")
    Leia(parcelas)
    Escreval
-   Escreval("Com essa taxa, o custo total será de R$",emprestimo:8:2,", em",parcelas," vezes de R$",emprestimo/parcelas:7:2," mensais.")
+   Escreval("Com essa taxa, o custo total serï¿½ de R$",emprestimo:8:2,", em",parcelas," vezes de R$",emprestimo/parcelas:7:2," mensais.")
    Escreval
    Escreval
    Escreval("*--***--*")
@@ -487,31 +487,31 @@ Inicio
    Escreval
    PularAula()
    Escreval
-   Escreva("Para viagens internacionais, alguns requisitos de idade são necessários. Aperta qualquer tecla para continuar...")
+   Escreva("Para viagens internacionais, alguns requisitos de idade sï¿½o necessï¿½rios. Aperta qualquer tecla para continuar...")
    Leia(N17)
    Escreval
    Se (idade>=21) entao
-      Escreval("Como você já possui maioridade, pode viajar sozinho(a)!")
+      Escreval("Como vocï¿½ jï¿½ possui maioridade, pode viajar sozinho(a)!")
    Senao
-      Escreval("Como você ainda não atingiu sua maioridade, precisa de autorização de seus pais ou responsáveis para viajar sozinho(a)!")
+      Escreval("Como vocï¿½ ainda nï¿½o atingiu sua maioridade, precisa de autorizaï¿½ï¿½o de seus pais ou responsï¿½veis para viajar sozinho(a)!")
    FimSe
    Escreval
-   Escreva("Clique qualquer tecla para uma informação irrelevante... ;P")
+   Escreva("Clique qualquer tecla para uma informaï¿½ï¿½o irrelevante... ;P")
    Leia(N18)
    Escreval
-   Escreva("Viagens longas significam comer muito! Vamos ver como está seu IMC? Me informe seu peso atual (kg): ")
+   Escreva("Viagens longas significam comer muito! Vamos ver como estï¿½ seu IMC? Me informe seu peso atual (kg): ")
    Leia(massa)
    Escreval
    Escreva("Agora me informe sua altura (cm): ")
    Leia(altura)
    IMC <- Massa/((altura/100)^2)
    Escreval
-   Escreval("Seu IMC está em ",IMC:5:2,"!")
+   Escreval("Seu IMC estï¿½ em ",IMC:5:2,"!")
    Escreval
    Se (IMC>=18.5) e (IMC<25) entao
-      Escreval("Parabéns! Você está no seu peso ideal, e pode curtir sem preocupações!")
+      Escreval("Parabï¿½ns! Vocï¿½ estï¿½ no seu peso ideal, e pode curtir sem preocupaï¿½ï¿½es!")
    Senao
-      Escreval("Você está fora de seu peso ideal, o que acha de uma dieta planejada até a viagem?")
+      Escreval("Vocï¿½ estï¿½ fora de seu peso ideal, o que acha de uma dieta planejada atï¿½ a viagem?")
    FimSe
    Escreval
    Escreval
@@ -522,28 +522,28 @@ Inicio
    Escreval
    PularAula()
    Escreval
-   Escreva("Sabemos que peso ideal não é apenas sobrepeso, vamos saber então em qual situação você está. Aperte qualquer tecla...")
+   Escreva("Sabemos que peso ideal nï¿½o ï¿½ apenas sobrepeso, vamos saber entï¿½o em qual situaï¿½ï¿½o vocï¿½ estï¿½. Aperte qualquer tecla...")
    Leia(N20)
    Escreval
    Se (IMC<17) entao
-      Escreval("Seu peso está muito abaixo do ideal. Procure auxílio médico e nutricional!")
+      Escreval("Seu peso estï¿½ muito abaixo do ideal. Procure auxï¿½lio mï¿½dico e nutricional!")
    Senao
       Se (IMC>=17) e (IMC<18.5) entao
-         Escreval("Seu peso está abaixo do ideal. Cuidados com as deficiências nutricionais!")
+         Escreval("Seu peso estï¿½ abaixo do ideal. Cuidados com as deficiï¿½ncias nutricionais!")
       Senao
          Se (IMC>=18.5) e (IMC<25) entao
-            Escreval("Parabéns, você está no peso ideal, continue assim!")
+            Escreval("Parabï¿½ns, vocï¿½ estï¿½ no peso ideal, continue assim!")
          Senao
             Se (IMC>=25) e (IMC<30) entao
-               Escreval("Você está acima do peso ideal, planeje melhor sua alimentação!")
+               Escreval("Vocï¿½ estï¿½ acima do peso ideal, planeje melhor sua alimentaï¿½ï¿½o!")
             Senao
                Se (IMC>=30) e (IMC<35) entao
-                  Escreval("Você está muito acima do peso ideal, sua saúde precisa de cuidados!")
+                  Escreval("Vocï¿½ estï¿½ muito acima do peso ideal, sua saï¿½de precisa de cuidados!")
                Senao
                   Se (IMC>=35) e (IMC<40) entao
-                     Escreval("Você está em Obesidade, procure auxílio nutricional!")
+                     Escreval("Vocï¿½ estï¿½ em Obesidade, procure auxï¿½lio nutricional!")
                   Senao
-                     Escreval("Você está em Obesidade Mórbida e precisa de atenção multidisciplinar!")
+                     Escreval("Vocï¿½ estï¿½ em Obesidade Mï¿½rbida e precisa de atenï¿½ï¿½o multidisciplinar!")
                   FimSe
                FimSe
             FimSe
@@ -553,7 +553,7 @@ Inicio
    Escreval
    Escreval("Agora precisamos escolher os Pacotes de Passeios da Viagem.")
    Escreval
-   Escreval("Escolha uma das opções abaixo:")
+   Escreval("Escolha uma das opï¿½ï¿½es abaixo:")
    Escreval("1. Pacote Bronze - U$ 700.00")
    Escreval("2. Pacote Prata - U$ 1.100.00")
    Escreval("3. Pacote Ouro - U$ 1.650.00")
@@ -563,7 +563,7 @@ Inicio
    Escreva("Digite agora a sua escolha entre 1 a 5: ")
    Leia(passeio)
    Enquanto (passeio > 5) ou (passeio = 0) faca
-      Escreva("Por favor, escolha um número entre 1, 2, 3, 4 ou 5, apenas: ")
+      Escreva("Por favor, escolha um nï¿½mero entre 1, 2, 3, 4 ou 5, apenas: ")
       Leia(passeio)
    FimEnquanto
    Escolha passeio
@@ -574,15 +574,15 @@ Inicio
    Caso 3
       valor <- 1650
    Caso 4
-      Escreva("Qual valor você define como teto?: U$ ")
+      Escreva("Qual valor vocï¿½ define como teto?: U$ ")
       Leia(valor)
    Caso 5
       valor <- 300
    FimEscolha
    Escreval
-   Escreval("Parabéns pela escolha! Você precisa agora reservar U$ ",valor:7:2," Dólares para seus passeios!")
+   Escreval("Parabï¿½ns pela escolha! Vocï¿½ precisa agora reservar U$ ",valor:7:2," Dï¿½lares para seus passeios!")
    Escreval
-   Escreval("Sua agência de turismo pediu atenção à inflação no período. Para viagens futuras, precisamos considerar esses aumentos nas reservas.")
+   Escreval("Sua agï¿½ncia de turismo pediu atenï¿½ï¿½o ï¿½ inflaï¿½ï¿½o no perï¿½odo. Para viagens futuras, precisamos considerar esses aumentos nas reservas.")
    Escreval
    Escreva("Dentro de quantos meses pretende iniciar sua viagem?: ")
    Leia(meses)
@@ -599,11 +599,11 @@ Inicio
       nvalor <- valor+(valor*10/100)
    FimEscolha
    Escreval
-   Escreval("Para o período escolhido, você precisa reservar",(nvalor-valor)/valor*100,"% a mais, resultando em U$ ",nvalor:7:2," Dólares para não correr riscos.")
+   Escreval("Para o perï¿½odo escolhido, vocï¿½ precisa reservar",(nvalor-valor)/valor*100,"% a mais, resultando em U$ ",nvalor:7:2," Dï¿½lares para nï¿½o correr riscos.")
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 09 - ESTRUTURAS DE REPETIÇÃO 01")
+   Escreval(" AULA 09 - ESTRUTURAS DE REPETIï¿½ï¿½O 01")
    Escreval("*--***--*")
    Escreval
    Escreval
@@ -617,12 +617,12 @@ Inicio
    FimEnquanto
    Escreval("Hey, Ho! Let's Go!")
    Escreval
-   Escreval("Agora precisamos calcular o seu gasto diário em refeições e pequenas compras para que não chegue ao fim da viagem sem dinheiro.")
+   Escreval("Agora precisamos calcular o seu gasto diï¿½rio em refeiï¿½ï¿½es e pequenas compras para que nï¿½o chegue ao fim da viagem sem dinheiro.")
    contador <- 1
    somadia <- 0
    Escreval
    Enquanto (contador <= 5) faca
-      Escreva("Digite quanto pretende gastar no",contador,"° dia: U$ ")
+      Escreva("Digite quanto pretende gastar no",contador,"ï¿½ dia: U$ ")
       Leia(N22)
       Se (N22 > maior) entao
          maior <- N22
@@ -631,33 +631,33 @@ Inicio
       contador <- contador + 1
    FimEnquanto
    Escreval
-   Escreval("A soma total das diárias pretendidas é de U$",somadia:6:2," Dólares, que precisam ser reservados e controlados!")
+   Escreval("A soma total das diï¿½rias pretendidas ï¿½ de U$",somadia:6:2," Dï¿½lares, que precisam ser reservados e controlados!")
    Escreval
-   Escreval("Se você acredita que precisa diminuir o planejamento, reveja o dia que você pretende mais gastar, que representa U$",maior:6:2," do total de U$",somadia:6:2,".")
+   Escreval("Se vocï¿½ acredita que precisa diminuir o planejamento, reveja o dia que vocï¿½ pretende mais gastar, que representa U$",maior:6:2," do total de U$",somadia:6:2,".")
    Escreval
-   Escreval("Pesquise preços sempre! Você pode inclusive pesquisar agora os preços em Real aqui no Brasil, que eu faço a conversão para Dólares.")
+   Escreval("Pesquise preï¿½os sempre! Vocï¿½ pode inclusive pesquisar agora os preï¿½os em Real aqui no Brasil, que eu faï¿½o a conversï¿½o para Dï¿½lares.")
    Escreval
    contador <- 1
    somadia <- 0
-   Escreva("Quantos produtos você pesquisou e quer converter?: ")
+   Escreva("Quantos produtos vocï¿½ pesquisou e quer converter?: ")
    Leia(qconversao)
    Escreval
    Enquanto (contador <= qconversao) faca
-      Escreva("Qual o preço no Brasil do",contador,"º produto?: R$")
+      Escreva("Qual o preï¿½o no Brasil do",contador,"ï¿½ produto?: R$")
       Leia(N23)
       vconversao <- N23/dolar
-      Escreval("O",contador,"° produto em dólar, custa U$",vconversao:6:2,".")
+      Escreval("O",contador,"ï¿½ produto em dï¿½lar, custa U$",vconversao:6:2,".")
       contador <- contador + 1
       somadia <- somadia + N23
       Escreval
    FimEnquanto
-   Escreval("A cotação dos",contador-1," produtos somam U$",somadia/dolar:6:2," (ou R$",somadia:6:2,"). Somando também os impostos de 60%, você não deve comprar se custarem mais de U$",((somadia/dolar)-((somadia/dolar)*40/100)):6:2," juntos (R$ ",((((somadia/dolar)-((somadia/dolar)*40/100))*dolar)*60/100)+(((somadia/dolar)-((somadia/dolar)*40/100))*dolar):6:2," com impostos), pois seria melhor comprar no Brasil mesmo.")
+   Escreval("A cotaï¿½ï¿½o dos",contador-1," produtos somam U$",somadia/dolar:6:2," (ou R$",somadia:6:2,"). Somando tambï¿½m os impostos de 60%, vocï¿½ nï¿½o deve comprar se custarem mais de U$",((somadia/dolar)-((somadia/dolar)*40/100)):6:2," juntos (R$ ",((((somadia/dolar)-((somadia/dolar)*40/100))*dolar)*60/100)+(((somadia/dolar)-((somadia/dolar)*40/100))*dolar):6:2," com impostos), pois seria melhor comprar no Brasil mesmo.")
    Escreval
-   Escreval("Eu faço contagem inteligente também... Regressiva ou Progressiva, é só me infomar onde começo e onde paro!")
+   Escreval("Eu faï¿½o contagem inteligente tambï¿½m... Regressiva ou Progressiva, ï¿½ sï¿½ me infomar onde comeï¿½o e onde paro!")
    Escreval
-   Escreva("Digite o número de início: ")
+   Escreva("Digite o nï¿½mero de inï¿½cio: ")
    Leia(inicial)
-   Escreva("Agora digite o número final: ")
+   Escreva("Agora digite o nï¿½mero final: ")
    Leia(final)
    contador <- inicial
    Escreval
@@ -677,14 +677,14 @@ Inicio
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 10 - ESTRUTURAS DE REPETIÇÃO 02")
+   Escreval(" AULA 10 - ESTRUTURAS DE REPETIï¿½ï¿½O 02")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
    contador <- 0
-   Escreva("Me informe um número, que te respondo a tabuada dele: ")
+   Escreva("Me informe um nï¿½mero, que te respondo a tabuada dele: ")
    Leia(tabuada)
    Escreval
    Repita
@@ -693,12 +693,12 @@ Inicio
       contador <- contador + 1
    Ate (contador > 10)
    Escreval
-   Escreval("Aproveitando que o assunto é escolar, informe todas as notas de uma matéria do Boletim Escolar de um de seus filhos (inclusive as negativas).")
+   Escreval("Aproveitando que o assunto ï¿½ escolar, informe todas as notas de uma matï¿½ria do Boletim Escolar de um de seus filhos (inclusive as negativas).")
    Escreval
-   Escreva("Qual é a média na escola do aluno?: ")
+   Escreva("Qual ï¿½ a mï¿½dia na escola do aluno?: ")
    Leia(mediaesc)
    Escreval
-   Escreva("Qual é a matéria a ser registrada?: ")
+   Escreva("Qual ï¿½ a matï¿½ria a ser registrada?: ")
    Leia(materia)
    contador <- 0
    snota <- 0
@@ -708,7 +708,7 @@ Inicio
    mbaixa <- 10
    Repita
       Escreval
-      Escreva("Digite a",contador + 1,"ª Nota em ",materia,": ")
+      Escreva("Digite a",contador + 1,"ï¿½ Nota em ",materia,": ")
       Leia(nota)
       contador <- contador + 1
       snota <- snota + nota
@@ -728,7 +728,7 @@ Inicio
       Leia(rnota)
       Se (rnota <> "s") e (rnota <> "n") entao
          Repita
-            Escreval("Resposta inválida!")
+            Escreval("Resposta invï¿½lida!")
             Escreval
             Escreva("Quer inserir mais uma Nota [S]/[N]?: ")
             Leia(rnota)
@@ -737,7 +737,7 @@ Inicio
    Ate (rnota = "n")
    mnota <- snota / contador
    Escreval
-   Escreval("A média entre as",contador," Notas em ",materia," (",totpos," positivas e",totneg," negativas ) é de",mnota:5:2,", sendo a mais baixa",mbaixa:5:2," e a mais alta ",malta:5:2,".")
+   Escreval("A mï¿½dia entre as",contador," Notas em ",materia," (",totpos," positivas e",totneg," negativas ) ï¿½ de",mnota:5:2,", sendo a mais baixa",mbaixa:5:2," e a mais alta ",malta:5:2,".")
    Escreval
    Escreval("Vamos ver como fica o Fatorial de ",contador,"?")
    Escreval
@@ -754,18 +754,18 @@ Inicio
    Ate (qnotas < 1)
    Escreval
    Escreval
-   Escreval("O valor do Fatorial de",contador," é igual a",fatorial,".")
+   Escreval("O valor do Fatorial de",contador," ï¿½ igual a",fatorial,".")
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 11 - ESTRUTURAS DE REPETIÇÃO 03")
+   Escreval(" AULA 11 - ESTRUTURAS DE REPETIï¿½ï¿½O 03")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
    qdiv <- 0
-   Escreva("Digite um número, que eu te digo se ele é um número primo: ")
+   Escreva("Digite um nï¿½mero, que eu te digo se ele ï¿½ um nï¿½mero primo: ")
    Leia(N26)
    Escreval
    Para contador <- 1 ate N26 passo 1 faca
@@ -786,15 +786,15 @@ Inicio
    Escreval
    Escreval
    Se (qdiv > 2) entao
-      Escreval("Ao todo existem",qdiv," valores divisíveis. Logo, o número",N26," NÃO é um número PRIMO.")
+      Escreval("Ao todo existem",qdiv," valores divisï¿½veis. Logo, o nï¿½mero",N26," Nï¿½O ï¿½ um nï¿½mero PRIMO.")
    Senao
-      Escreval("Ao todo existem",qdiv," valores divisíveis. Logo, o número",N26," é SIM um número PRIMO!")
+      Escreval("Ao todo existem",qdiv," valores divisï¿½veis. Logo, o nï¿½mero",N26," ï¿½ SIM um nï¿½mero PRIMO!")
    FimSe
    Escreval
-   Escreva("Vamos uma sequência combinada? Informe de qual número você quer iniciar: ")
+   Escreva("Vamos uma sequï¿½ncia combinada? Informe de qual nï¿½mero vocï¿½ quer iniciar: ")
    Leia(iniciofib)
    Escreval
-   Escreva("Até qual casa você quer ver?: ")
+   Escreva("Atï¿½ qual casa vocï¿½ quer ver?: ")
    Leia(casafib)
    Escreval
    fib1 <- iniciofib
@@ -805,7 +805,7 @@ Inicio
       FimPara
    FimPara
    Escreval
-   Escreva("Me ajude a exibir a sequência Fibonacci. Até qual termo devo exibir?: ")
+   Escreva("Me ajude a exibir a sequï¿½ncia Fibonacci. Atï¿½ qual termo devo exibir?: ")
    Leia(casafib)
    fib1 <- 0
    fib2 <- 1
@@ -822,20 +822,20 @@ Inicio
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 12 - PROCEDIMENTOS, ROTINAS E FUNÇÕES")
+   Escreval(" AULA 12 - PROCEDIMENTOS, ROTINAS E FUNï¿½ï¿½ES")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
-   Escreva("Controle de Peso da Família. Quantas pessoas serão pesadas?: ")
+   Escreva("Controle de Peso da Famï¿½lia. Quantas pessoas serï¿½o pesadas?: ")
    Leia(qpeso)
    Escreval
    Escreval
    Topo()
    Para contador <- 1 ate qpeso faca
       Escreval
-      Escreva("Digite o nome da ",contador,"ª pessoa da família: ")
+      Escreva("Digite o nome da ",contador,"ï¿½ pessoa da famï¿½lia: ")
       Leia(nomepeso)
       Escreval
       Escreva("Digite o peso de ",nomepeso,": ")
@@ -849,7 +849,7 @@ Inicio
       Topo()
    FimPara
    Escreval
-   Escreval("A pessoa da família mais pesada é ",maispesado,", com",maispeso,"kg!")
+   Escreval("A pessoa da famï¿½lia mais pesada ï¿½ ",maispesado,", com",maispeso,"kg!")
    Escreval
    ParOUImpar(maispeso)
    Escreval
@@ -867,43 +867,43 @@ Inicio
    y <- anoleve
    Soma(x,y)
    Escreval
-   Escreval("A idade da pessoa mais pesada, somada à 100 é:",x,".")
+   Escreval("A idade da pessoa mais pesada, somada ï¿½ 100 ï¿½:",x,".")
    Escreval
-   Escreval("A idade da pessoa mais leve, somada à 10 é:",y,".")
+   Escreval("A idade da pessoa mais leve, somada ï¿½ 10 ï¿½:",y,".")
    Escreval
    Escreval
    Escreval("*--***--*")
-   Escreval(" AULA 13 - FUNÇÕES")
+   Escreval(" AULA 13 - FUNï¿½ï¿½ES")
    Escreval("*--***--*")
    Escreval
    Escreval
    PularAula()
    Escreval
    RES <- SomaTotal(x,y)
-   Escreval("A soma desses dois valores é igual a: ",RES,", e a média deles é",RES / 2,".")
+   Escreval("A soma desses dois valores ï¿½ igual a: ",RES,", e a mï¿½dia deles ï¿½",RES / 2,".")
    Escreval
-   Escreval("Agora, vou realizar uma Análise do nome da pessoa mais pesada, que é ",maispesado,".")
+   Escreval("Agora, vou realizar uma Anï¿½lise do nome da pessoa mais pesada, que ï¿½ ",maispesado,".")
    Escreval
-   Escreval("O total de letras de ",maispesado," é: ",compr(maispesado),".")
+   Escreval("O total de letras de ",maispesado," ï¿½: ",compr(maispesado),".")
    Escreval
-   Escreval("O nome ",maispesado," em maiúsculas é ",maiusc(maispesado),".")
+   Escreval("O nome ",maispesado," em maiï¿½sculas ï¿½ ",maiusc(maispesado),".")
    Escreval
-   Escreval("O nome ",maispesado," em minúsculas é ",minusc(maispesado),".")
+   Escreval("O nome ",maispesado," em minï¿½sculas ï¿½ ",minusc(maispesado),".")
    Escreval
-   Escreval("A primeira letra do nome ",maispesado," é ",copia(maispesado,1,1),".")
+   Escreval("A primeira letra do nome ",maispesado," ï¿½ ",copia(maispesado,1,1),".")
    Escreval
-   Escreval("A última letra do nome ",maispesado," é ",copia(maiusc(maispesado),compr(maispesado),1),".")
+   Escreval("A ï¿½ltima letra do nome ",maispesado," ï¿½ ",copia(maiusc(maispesado),compr(maispesado),1),".")
    Escreval
-   Escreva("Digite uma letra do nome, que eu respondo em que posição ela está: ")
+   Escreva("Digite uma letra do nome, que eu respondo em que posiï¿½ï¿½o ela estï¿½: ")
    Leia(letra)
    Escreval
-   Escreval("A letra ",letra," está na posição ",pos(letra,maispesado),".")
+   Escreval("A letra ",letra," estï¿½ na posiï¿½ï¿½o ",pos(letra,maispesado),".")
    Escreval
-   Escreval("O código da letra ",maiusc(letra)," na programação dos teclados é",asc(letra),".")
+   Escreval("O cï¿½digo da letra ",maiusc(letra)," na programaï¿½ï¿½o dos teclados ï¿½",asc(letra),".")
    Escreval
-   Escreval("A tecla",asc(letra)," na programação dos teclados corresponde à ",carac(asc(letra)),".")
+   Escreval("A tecla",asc(letra)," na programaï¿½ï¿½o dos teclados corresponde ï¿½ ",carac(asc(letra)),".")
    Escreval
-   Escreval("Agora vou escrever o nome ",maispesado," de trás pra frente.")
+   Escreval("Agora vou escrever o nome ",maispesado," de trï¿½s pra frente.")
    Escreval
    Para contador <- compr(maispesado) ate 1 passo-1 faca
       Escreva(copia(maiusc(maispesado),contador,1))
@@ -921,7 +921,7 @@ Inicio
    Escreval
    totpar <- 0
    Para contador <- 1 ate 6 faca
-      Escreva("Digite o",contador,"º número: ")
+      Escreva("Digite o",contador,"ï¿½ nï¿½mero: ")
       Leia(vet[contador])
       Se (vet[contador] % 2 = 0) entao
          totpar <- totpar + 1
@@ -957,22 +957,22 @@ Inicio
    Escreval
    Para contador <- 1 ate 6 faca
       Se (vet[contador] % 2 = 0) entao
-         Escreval("Encontrei um valor PAR na posição",contador,"!")
+         Escreval("Encontrei um valor PAR na posiï¿½ï¿½o",contador,"!")
          Escreval
       FimSe
    FimPara
-   Escreval("O total de números PARES digitados é",totpar,".")
+   Escreval("O total de nï¿½meros PARES digitados ï¿½",totpar,".")
    Escreval
-   Escreval("Agora vamos calcular e publicar as Notas e Médias das provas Teórica e Prática.")
+   Escreval("Agora vamos calcular e publicar as Notas e Mï¿½dias das provas Teï¿½rica e Prï¿½tica.")
    Escreval
    Para contador <- 1 ate 4 faca
       Escreval("Aluno ",contador)
       Escreva("Nome: ")
       Leia(nomealuno[contador])
       Escreval
-      Escreva("Nota na Prova Teórica: ")
+      Escreva("Nota na Prova Teï¿½rica: ")
       Leia(notateor[contador])
-      Escreva("Nota na Prova Prática: ")
+      Escreva("Nota na Prova Prï¿½tica: ")
       Leia(notaprat[contador])
       median[contador] <- (notateor[contador]+notaprat[contador]) / 2
       somamedia <- somamedia + median[contador]
@@ -989,7 +989,7 @@ Inicio
       FimSe
    FimPara
    Escreval
-   Escreval("Ao todo temos",qalunos," alunos acima da média da turma, que foi",mediatot:4:1,".")
+   Escreval("Ao todo temos",qalunos," alunos acima da mï¿½dia da turma, que foi",mediatot:4:1,".")
    Escreval
    Escreval
    Escreval("*--***--*")
@@ -999,15 +999,15 @@ Inicio
    Escreval
    PularAula()
    Escreval
-   Escreval("Eu posso também ler Matrizes Matemáticas!")
+   Escreval("Eu posso tambï¿½m ler Matrizes Matemï¿½ticas!")
    Escreval
    sdp <- 0
    p2l <- 1
    Para linha <- 1 ate 4 faca
       Para coluna <- 1 ate 4 faca
-         Escreva("Digite um valor da posição LINHA [",linha," ], COLUNA [",coluna," ]: ")
+         Escreva("Digite um valor da posiï¿½ï¿½o LINHA [",linha," ], COLUNA [",coluna," ]: ")
          Leia(mat[linha,coluna])
-         Se (linha = coluna) então
+         Se (linha = coluna) entï¿½o
             sdp <- sdp + mat[linha,coluna]
          FimSe
       FimPara
@@ -1029,32 +1029,32 @@ Inicio
          mcol3 <- mat[linha,3]
       FimSe
    FimPara
-   Escreval("A soma dos valores da Diagonal Principal é igual a:",sdp,".")
+   Escreval("A soma dos valores da Diagonal Principal ï¿½ igual a:",sdp,".")
    Escreval()
-   Escreval("O produto dos valores da Linha [ 2 ] é igual a:",p2l,".")
+   Escreval("O produto dos valores da Linha [ 2 ] ï¿½ igual a:",p2l,".")
    Escreval()
-   Escreval("O maior valor da Coluna [ 3 ] é igual a:",mcol3,".")
+   Escreval("O maior valor da Coluna [ 3 ] ï¿½ igual a:",mcol3,".")
    Escreval()
    Escreval("Dissecando Matrizes")
    Escreval
    Para lin <- 1 ate 4 faca
       Para col <- 1 ate 4 faca
-         Escreva("Digite valor para a posição [",lin,",",col,"]: ")
+         Escreva("Digite valor para a posiï¿½ï¿½o [",lin,",",col,"]: ")
          Leia(mat[lin,col])
       FimPara
    FimPara
    Escreval
    Repita
       EscrevaL()
-      EscrevaL("MENU DE OPÇÕES")
+      EscrevaL("MENU DE OPï¿½ï¿½ES")
       EscrevaL("====================")
       EscrevaL("[1] Mostrar a Matriz")
       EscrevaL("[2] Diagonal Principal")
-      EscrevaL("[3] Triângulo Superior")
-      EscrevaL("[4] Triângulo Inferior")
+      EscrevaL("[3] Triï¿½ngulo Superior")
+      EscrevaL("[4] Triï¿½ngulo Inferior")
       EscrevaL("[5] Sair")
       Repita
-         EscrevaL("===== OPÇÃO: ")
+         EscrevaL("===== OPï¿½ï¿½O: ")
          Leia(op)
       Ate (op >= 1) e (op <= 5)
       Escreval
@@ -1098,7 +1098,7 @@ Inicio
    Ate (terminouVelha() = verdadeiro)
    EscrevaL("JOGO FINALIZADO!!!")
    Escreval
-   Escreva("Foi um prazer trabalhar com você, ",Nome,", até mais!")
+   Escreva("Foi um prazer trabalhar com vocï¿½, ",Nome,", atï¿½ mais!")
    EscrevaL()
    Escreva()("Aperte qualquer tecla para fechar...")
    Leia(fim)
