@@ -33,9 +33,9 @@ Inicio
       Escreva("Por favor, digite [S] para SIM ou [N] para N�O: ")
       Leia(resppular)
       Se (resppular <> "s") e (resppular <> "n") entao
-         Escreval("Resposta inv�lida!")
+         Escreval("Resposta inválida!")
          Escreval
-         Escreval("Quer pular esta aula?")
+         Escreval("Quer continuar esta aula?")
       FimSe
    Ate (resppular = "s") ou (resppular = "n")
    Escreval
