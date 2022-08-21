@@ -1,11 +1,11 @@
-Algoritmo "MeuPrimeiroAlgoritmo"
+//Algoritmo "MeuPrimeiroAlgoritmo"
 
-// Disciplina   : Linguagem e Lógica de Programação
-// Professor   : Gustavo Guanabara
-// Descrição   : Primeiro "Olá, Mundo!"
-// Autor(a)    : Murilo Oliveira
-// Data de início  : 19/07/2022
-// Data de conclusão: 29/07/2022
+//Disciplina   : Linguagem e Lógica de Programação
+//Professor   : Gustavo Guanabara
+//Descrição   : Primeiro "Olá, Mundo!"
+//Autor(a)    : Murilo Oliveira
+//Data de início  : 19/07/2022
+//Data de conclusão: 29/07/2022
 
 Var
 
